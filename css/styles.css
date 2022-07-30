@@ -286,7 +286,8 @@ p {
   text-align: center;
   position: absolute;
   top: 30%;
-  left: 60%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .banner h2 {
@@ -542,7 +543,7 @@ all skills */
   box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.2);
   transition: var(--transition);
   /* border: 1px solid red; */
-  width: 28rem;
+  max-width: 28rem;
 }
 
 .service-cards:hover {
@@ -552,7 +553,7 @@ all skills */
 
 .service-img {
   height: 17rem;
-  width: 28rem;
+  max-width: 28rem;
   object-fit: cover;
   margin: 0 auto;
   border-top-left-radius: var(--radius);
